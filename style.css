@@ -7,6 +7,7 @@ nav{
     justify-content: space-between;
     background-color:#1A1244;
     padding:10px 200px;
+    border-bottom:4px solid #401E63;
 }
 nav ul {
     display: flex;
@@ -30,4 +31,31 @@ nav div{
 nav ul li a:hover{
     background-color: black;
     color: red;
+}
+header{
+background-image: url(images/website\ banner.jpg);
+padding:200px;
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+}
+.search-icon-parent{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.icon i{
+color: red;
+background-color:green;
+font-size: 25px;
+border-radius: 5px;
+padding:10px;
+margin:-10px;
+}
+.search-icon-parent input{
+width: 500px;
+height: 40px;
+font-size: 20px;
+padding:5px 15px;
+border-radius: 5px;
 }
