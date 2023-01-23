@@ -59,3 +59,30 @@ font-size: 20px;
 padding:5px 15px;
 border-radius: 5px;
 }
+main{
+    background-color: #2D236A;
+    padding-top: 20px;
+}
+.main-section{
+    width: 1100px;
+    padding: 50px;
+    margin: auto;
+}
+.main-section-text{
+    display: flex;
+    justify-content: space-between;
+}
+.latest-vedios{
+    font-size: 25px;
+    color:#04AA60 ;
+}
+.pages{
+    color: #04AA60;
+}
+.pages span{
+    color: black;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    padding: 10px;
+    margin:0 10px;
+}
