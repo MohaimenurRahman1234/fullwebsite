@@ -124,6 +124,11 @@ main{
     background-color: #04AA60;
     padding: 10px 25px;
     border-radius: 5px;
+    transition: 0.5s;
+}
+.previous-page h3 a:hover{
+    background-color: #04aa5fa5;
+
 }
 .previous-page a{
     text-decoration: none;
