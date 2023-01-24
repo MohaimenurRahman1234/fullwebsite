@@ -112,3 +112,30 @@ main{
     margin-top:10px;
     color: gray;
 }
+.previous-page{
+    margin-top:100px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:100px;
+
+
+}
+.previous-page h3 a{
+    background-color: #04AA60;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+.previous-page a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+.previous-page div a{
+    background-color: antiquewhite;
+    color: black;
+    padding: 10px;
+    margin:0 10px;
+    border-radius: 5px;
+}
+.previous-page div a:first-child{
+    background-color: #04AA60;
+}
